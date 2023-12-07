@@ -57,5 +57,12 @@ public class mapDemo {
         System.out.println(ck);
         boolean cv = map.containsValue("66");
         System.out.println(cv);
+
+        /*
+            删除
+         */
+        value = map.remove("语文"); //根据key，删除一整条键值对，该方法的返回值是删除key对应的value
+        System.out.println(map);
+        System.out.println(value);
     }
 }
