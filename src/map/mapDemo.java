@@ -41,7 +41,21 @@ public class mapDemo {
          */
         value = map.get("化学");
         System.out.println(value);
+        value = map.get("物理");
+        System.out.println(value);
 
+        /*
+            size() 返回当前map中的元素个数
+         */
+        int size = map.size();
+        System.out.println(size);
 
+        /*
+            可以判断Map是否包含给定的Key和value
+         */
+        boolean ck = map.containsKey("语文");
+        System.out.println(ck);
+        boolean cv = map.containsValue("66");
+        System.out.println(cv);
     }
 }
