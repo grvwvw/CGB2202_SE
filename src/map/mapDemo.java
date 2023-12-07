@@ -34,5 +34,13 @@ public class mapDemo {
         value = map.put("物理", 60); //此时的map中有原本的key，因此会返回开始时的value返回
         System.out.println(map);
         System.out.println(value);
+
+        /*
+            get(Object Key)
+            根据对应的Key获取对应的value，如果key不存在，返回为null
+         */
+        value = map.get("化学");
+
+
     }
 }
