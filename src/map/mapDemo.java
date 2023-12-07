@@ -40,6 +40,7 @@ public class mapDemo {
             根据对应的Key获取对应的value，如果key不存在，返回为null
          */
         value = map.get("化学");
+        System.out.println(value);
 
 
     }
